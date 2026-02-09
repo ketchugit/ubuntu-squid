@@ -8,4 +8,4 @@ COPY squid.conf /etc/squid/squid.conf
 COPY passwords /etc/squid/passwords
 
 # Expose Squid's default port
-EXPOSE 3128
+EXPOSE 443
